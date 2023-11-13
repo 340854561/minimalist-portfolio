@@ -1,26 +1,32 @@
 /* GENERAL */
 
+/* Importing Poppins font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Set the font to poppins for the entire body*/
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Enabling smooth scrolling for the entire HTML document */
 html {
   scroll-behavior: smooth;
 }
 
+/* Setting default text color for paragraphs */
 p {
   color: rgb(85, 85, 85);
 }
 
 /* TRANSITION */
 
+/* Applying transition for anchor tags and buttons */
 a,
 .btn {
   transition: all 300ms ease;
@@ -28,6 +34,7 @@ a,
 
 /* DESKTOP NAV */
 
+/* Styling for the desktop navigation bar */
 nav,
 .nav-links {
   display: flex;
@@ -58,6 +65,7 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+/* Styling for the logo in the desktop navigation bar */
 .logo {
   font-size: 2rem;
 }
@@ -68,6 +76,7 @@ a:hover {
 
 /* HAMBURGER MENU */
 
+/* Styling for the hamburger menu */
 #hamburger-nav {
   display: none;
 }
@@ -93,6 +102,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+/* Styling for the menu links in the hamburger menu */
 .menu-links {
   position: absolute;
   top: 100%;
@@ -122,6 +132,7 @@ a:hover {
   max-height: 300px;
 }
 
+/* Animations for opening and closing the hamburger menu */
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -148,6 +159,7 @@ a:hover {
 
 /* SECTIONS */
 
+/* Styling for all sections in the webpage */
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -162,6 +174,7 @@ section {
 
 /* PROFILE SECTION */
 
+/* Styling for the profile section */
 #profile {
   display: flex;
   justify-content: center;
@@ -208,6 +221,7 @@ section {
 
 /* ICONS */
 
+/* Styling for icons used in the webpage */
 .icon {
   cursor: pointer;
   height: 2rem;
@@ -215,6 +229,7 @@ section {
 
 /* BUTTONS */
 
+/* Styling for buttons in the webpage */
 .btn-container {
   display: flex;
   justify-content: center;
@@ -263,6 +278,7 @@ section {
 
 /* ABOUT SECTION */
 
+/* Styling for the about section */
 #about {
   position: relative;
 }
@@ -316,6 +332,8 @@ section {
 }
 
 /* EXPERIENCE SECTION */
+
+/* Styling for the experience section */
 
 #experience {
   position: relative;
